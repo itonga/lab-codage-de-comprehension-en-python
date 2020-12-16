@@ -4,9 +4,9 @@
 @author: CollegeBoreal
 """
 
-def exo_03(2,4,6,8):
+def exo_03(liste):
   # Selectionner une liste de nombre pairs uniquement
-  pairs =[x*x for x in (2,4,6,8)]
+  pairs =[x for x in 2,4 liste if x % 2 == 0]
   return sorted(pairs)
 
 def main():
