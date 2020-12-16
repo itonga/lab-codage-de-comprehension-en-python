@@ -6,7 +6,7 @@
 
 def exo_03(liste):
   # Selectionner une liste de nombre pairs uniquement
-  pairs =[x for x in 2,4 liste if x % 2 == 0]
+  pairs =[x for x in liste if x % 2 == 0]
   return sorted(pairs)
 
 def main():
